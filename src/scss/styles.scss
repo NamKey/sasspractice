@@ -1,0 +1,15 @@
+@import "_variables";
+@import "_mixins";
+
+h1 {
+    color: tomato;
+    @include responsive("iphone") {
+        color: yellow;
+    }
+    @include responsive("iphone-l") {
+        font-size: 60px;
+    }
+    @include responsive("tablet") {
+        color: green;
+    }
+}
