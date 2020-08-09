@@ -1,2 +1,2 @@
-import "../scss/styles.scss";
-console.log("Preset");
+import "../scss/practice/styles.scss";
+import "../scss/bhs/styles.scss";
